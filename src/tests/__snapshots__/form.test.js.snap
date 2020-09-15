@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Forum components 1`] = `
+<form
+  className="ui form"
+  onSubmit={[Function]}
+>
+  <div
+    className="field"
+  >
+    <label
+      htmlFor="form-input-first-name"
+    >
+      Application
+    </label>
+    <div
+      className="ui fluid input"
+    >
+      <input
+        aria-describedby={null}
+        id="form-input-first-name"
+        name="Application"
+        onChange={[Function]}
+        placeholder="Name of camera"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="field"
+  >
+    <label>
+      Source
+    </label>
+    <div
+      className="ui fluid input"
+    >
+      <input
+        aria-describedby={null}
+        name="Source"
+        onChange={[Function]}
+        placeholder="rtsp://ip"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="field"
+  >
+    <label>
+      Codec
+    </label>
+    <div
+      className="ui fluid input"
+    >
+      <input
+        aria-describedby={null}
+        name="Codec"
+        onChange={[Function]}
+        placeholder="rtsp://ip"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="field"
+  >
+    <label>
+      Width
+    </label>
+    <div
+      className="ui fluid input"
+    >
+      <input
+        aria-describedby={null}
+        name="Width"
+        onChange={[Function]}
+        placeholder="In width"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="field"
+  >
+    <label>
+      Height
+    </label>
+    <div
+      className="ui fluid input"
+    >
+      <input
+        aria-describedby={null}
+        name="Height"
+        onChange={[Function]}
+        placeholder="In cm"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="ui success message"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        Form Completed
+      </div>
+      <p>
+        You've finish all the settings of BerryNet!
+      </p>
+    </div>
+  </div>
+  <div
+    className="ui error message"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        Form incomplete
+      </div>
+      <p>
+        All fields are required!
+      </p>
+    </div>
+  </div>
+  <button
+    className="ui button"
+    onClick={[Function]}
+  >
+    Submit
+  </button>
+</form>
+`;
